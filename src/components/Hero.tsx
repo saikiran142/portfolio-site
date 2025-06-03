@@ -49,7 +49,7 @@ const Hero = () => {
               </span>
             </h1>
 
-            <p className="text-xl sm:text-2xl text-slate-300 mb-12 max-w-3xl mx-auto">
+            <p className="text-xl sm:text-2xl text-slate-300 mb-8 max-w-3xl mx-auto">
               Crafting beautiful and functional web experiences with modern technologies
             </p>
           </motion.div>
@@ -58,7 +58,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.4 }}
-            className="flex justify-center space-x-6 mb-12"
+            className="flex justify-center space-x-6 mb-12 mt-8"
           >
             {[
               { icon: FaGithub, href: "https://github.com/saikiran142", label: "GitHub" },
